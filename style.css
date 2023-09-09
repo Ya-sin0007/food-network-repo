@@ -1,3 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 55px;
+    margin-right: 55px;
+    border-radius: 5px;
+}
+
+.media {
+    margin: 0px 120px;
+}
+
+
+.aside {
+    display: flex;
+    justify-content: center;
+
+}
+
 /*last section*/
 .footer {
     text-align: center;
@@ -6,6 +29,8 @@
     padding-top: 20px;
     border: #012c1b 3px solid;
     border-radius: 2px;
+    margin-top: 25px;
+
 }
 
 .footer h3 {
