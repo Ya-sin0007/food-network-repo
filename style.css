@@ -1,17 +1,51 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
+.main-item {
+    margin-left: 3%;
+}
+
+.card-item {
+    width: 20%;
+    display: inline-block;
+    margin: 5%;
+    box-shadow: 2px 2px 20px rgb(126, 125, 125);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.images img {
+    width: 100%;
+}
+
+.description {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.title {
+    color: rgb(54, 52, 52);
+}
+
+
+/*aside*/
 .social-media {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 55px;
     margin-right: 55px;
     border-radius: 5px;
+    padding: 15px;
 }
 
 .media {
     margin: 0px 120px;
+}
+
+.media p {
+    line-height: -20px;
 }
 
 
@@ -21,6 +55,7 @@ body {
 
 }
 
+/*aside*/
 /*last section*/
 .footer {
     text-align: center;
